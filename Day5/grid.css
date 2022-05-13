@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.parent{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: lfi;
+    /* grid-template-rows: lfi lfi lfi; */
+    grid-template-rows: repeat(3, minmax(100px, auto));
+    gap: 10px;
+}
+
+.nav{
+    background-color: rgba(255, 0, 0, 50);
+    grid-row: 1/2;
+    grid-column: 1/2;
+}
+
+.content{
+    background-color: forestgreen;
+    grid-row: 2/3;
+    grid-column: 1/2;
+}
+
+.footer{
+    background-color: aquamarine;
+    grid-row: 3/4;
+    grid-column: 1/2;
+}
+
