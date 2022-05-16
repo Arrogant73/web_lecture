@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    position: relative;
+    height: 100vh; /* 현재 상단 꽉찬 높이 100vh */
+}
+
+ul{
+    display: flex;
+    /* flex-direction: ; */
+    /* justify-content(center;중앙정렬, flex-end;우측정렬), align-itmes, align-content */
+
+    /* position: static; 저장 기본 값 */
+    /*position: relative; 자기가 있던 요소를 기준으로 이동 */
+    /*position: absolute; 자기가 원하는 요소를 기준으로 이동(position: static; */
+    /*position: fixed; 현재 브라우저 전체 크기 */
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+footer div{
+    position: absolute;
+    bottom: 0; 
+}
+
+/* display: flex 사용하여
+footer div */
+
+/* 내부 여백 = padding 
+-padding: top right bottom left;(ex. padding: 10px 30px 10px 30px
+-padding: top&bottom right&left(ex. padding: 10px 30px
+-padding-top, padding-bottom, padding-left, padding-right로 직접 지정도 가능 */
+
+/* 요소와 요소 사이 간격 = margin
+-"*/
+
+/* 
+-글자 색: color
+-배경 색: background-color
+*/
+
+/*
+-테두리 설정: border(border:굵기 스타일 색상)
+-유저의 action에 따라 사용할 수 있는 가상 선택자
+element:hover: 마우스를 위로 올렸을 때
+ex. <a href="#">메뉴</a> a hover{color: red;}
+*/
+
+/*text decoration: none; : 텍스트 데코 삭제*/
